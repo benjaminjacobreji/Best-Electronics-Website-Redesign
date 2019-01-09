@@ -2,6 +2,9 @@
 Website Hosted from Github<br>
 https://benjaminjacobreji.github.io/CW1-WebsiteRedesign/<br>
 <br>
+Orginal Website<br>
+http://best-electronics-ca.com/<br>
+<br>
 <b>Team Members</b><br>
 Benjamin Jacob Reji<br>
 Vishan De Silva<br>
