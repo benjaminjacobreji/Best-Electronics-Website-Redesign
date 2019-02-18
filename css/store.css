@@ -1,12 +1,14 @@
 /* Store Drop Down Menu */
 
 .store-menu{
-    padding:30px;
     background:#2e2e2e;
     color:#ffffff;
     margin-top:10px;
     margin-bottom:10px;
-    height: 300px;
+    height: 250px;
+    float: left;
+    width: 250px;
+    overflow: hidden;
   }
   
   .store-menu ul{
@@ -19,14 +21,6 @@
     display: block;
     text-decoration: none;
     padding: 10px;
-  }
-
-  #storeSidebar {
-    float: left;
-    width: 20%;
-    margin-top: 10px;
-    overflow: hidden;
-    
   }
 
   article#storeMain-col{
@@ -88,5 +82,66 @@
     width: auto;
     display: block;
     margin-bottom: 20px;
+  }
+}
+
+.dropbtn {
+  background-color: #2e2e2e;
+  color:  #fb2e01;
+  padding: 16px;
+  font-size: 16px;
+  border:  #fb2e01;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  position: absolute;
+  background-color: #2e2e2e;
+  min-width: 220px;
+
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  width: 100%;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #fb2e01;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #2e2e2e;
+}
+@media screen and (max-width:600px) {
+  .store-menu{
+    height: 150px;
+    overflow: scroll;
+  }
+  .unorderedList ul:not() {display: none;}
+  .unorderedList {
+    width: auto;
+    display: none;
+    margin-bottom: 20px;
+  }
+  .dropdown-content{
+    display: none;
   }
 }
