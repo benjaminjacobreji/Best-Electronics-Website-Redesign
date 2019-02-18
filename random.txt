@@ -1,0 +1,3 @@
+The Colors
+Red #fb2e01
+Grey #2e2e2e
