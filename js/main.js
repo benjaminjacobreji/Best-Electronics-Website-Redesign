@@ -14,7 +14,7 @@ function returnMenu() {
     document.getElementById("overlay1").style.display = "none";
   }
 
-  function myFunction() {
+  function navFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
       x.className += " responsive";
