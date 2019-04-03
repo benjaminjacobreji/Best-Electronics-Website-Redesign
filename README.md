@@ -14,7 +14,7 @@ Hitesh Manani<br>
 
 <b>Steps to recreate the website</b><br>
 1. Copy and paste this directory in XAMPP/htdocs/website<br>
-2. Use the two SQL files to create and populate the table in Xampp MYSQL.<br>
+2. Use the CreateandPopulateDatabase.SQL files to create and populate the table in Xampp MYSQL.<br>
 3. Start XAMPP Apache and MYSQL<br>
 4. Goto localhost/website through your internet browser of choice.<br>
 5. Enjoy and leave feedback
