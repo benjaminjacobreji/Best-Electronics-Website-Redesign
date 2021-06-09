@@ -1,4 +1,5 @@
-<b>CW1-Web Design and Databases-GROUP7</b><br>
+<b>Best Electronics Website Redesign
+</b><br>
 <br>
 Orginal Website<br>
 http://best-electronics-ca.com/<br>
