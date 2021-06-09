@@ -1,19 +1,33 @@
-<b>Best Electronics Website Redesign
-</b><br>
-<br>
-Orginal Website<br>
-http://best-electronics-ca.com/<br>
-<br>
-<b>Team Members</b><br>
-Benjamin Jacob Reji<br>
-Vishan De Silva<br>
-Pranav Pai<br>
-Brenden Cyrus Monterio<br>
-Hitesh Manani<br>
+# Best Electronics Website Redesign
 
-<b>Steps to recreate the website</b><br>
-1. Copy and paste this directory in XAMPP/htdocs/website<br>
-2. Use the CreateandPopulatetable.SQL files to create and populate the table in Xampp MYSQL.<br>
-3. Start XAMPP Apache and MYSQL<br>
-4. Goto localhost/website through your internet browser of choice.<br>
-5. Enjoy and leave feedback
+**Original Website:** [Atari - Best Electronics Home](http://best-electronics-ca.com/)
+
+A static version of the redesigned website is availiable at [Best Electronics | Welcome](https://benjaminjacobreji.github.io/Best-Electronics-Website-Redesign/).
+
+**Note:** **The static version is to demo the UI of the redesign.** The STORE page in the link above will download a php file rather than display the appropriate webpage, since the website is statically hosted via GitHub Pages and does not have access to PHP and MySQL.
+
+## About The Project
+
+Group project in Year1 of BSc Computer Science for [F27WP] Web Programming.
+
+### Team Members
+
+- [Benjamin Jacob Reji](@benjaminjacobreji)
+- [Vishan De Silva](https://github.com/vishandesilva)
+- Pranav Pai
+- [Brenden Cyrus Monterio](https://github.com/brendenmonteiro)
+- [Hitesh Manani](https://github.com/hitesh68333)
+
+## Steps to run full fledged dynamic website [on localhost]
+
+1. Install [XAMPP](https://www.apachefriends.org/index.html) or equivalent.
+2. Create folder named "website" in XAMPP/htdocs/
+3. Copy content of this repo to newly created website folder.
+4. Populate MySQL database with values from [CW2_CreateAndPopulateTable.sql](https://github.com/benjaminjacobreji/Best-Electronics-Website-Redesign/blob/master/CW2_CreateAndPopulateTable.sql) file by
+   - Via Command Line or Terminal
+   - Via PHPMyAdmin
+5. Navigate to [localhost/website/](localhost/website/) on your browser.
+
+## Issues
+
+If any issues are see or observed please make an issue or fork the project, fix it and open a PR to contribute. We look forward to all contributions.
