@@ -12,7 +12,7 @@ Group project in Year1 of BSc Computer Science for [F27WP] Web Programming.
 
 ### Team Members
 
-- [Benjamin Jacob Reji](@benjaminjacobreji)
+- [Benjamin Jacob Reji](https://github.com/benjaminjacobreji)
 - [Vishan De Silva](https://github.com/vishandesilva)
 - Pranav Pai
 - [Brenden Cyrus Monterio](https://github.com/brendenmonteiro)
